@@ -1,0 +1,88 @@
+/*Configurar propriedades border e padding*/
+#border{
+    width: 200px;
+    height: 100px;
+    background: tomato;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid blue;
+}
+
+/*Configurando o figure e figcaption*/
+#figure{
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    border: crimson 5px double;
+    text-align: center;
+}
+
+#figure img{
+    width: 180px;
+    height: 130px;
+}
+
+/*Configurando background-image*/
+#back{
+    width: 500px;
+    height: 450px;
+    background-repeat: no-repeat;
+    color: gold;
+}
+#back p{
+    text-align: center;
+}
+/*Configurando margin*/
+
+#margin{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(125, 125, 177);
+}
+#margin h2{
+    background-color: darkgoldenrod;
+    margin: 20px 50px 30px 50px ;
+}
+
+#margin p{
+    margin: 80px ;
+}
+
+/*Configurando float e clear */
+#float{
+    margin: 20px;
+    border: 5px solid seagreen;
+    text-align: center;
+}
+
+#float img{
+    float: right;
+}
+
+#float p{
+    text-align: center;
+    clear: both;
+
+}
+
+/*Configurando box-sizing e content-box */
+#sizing{
+    margin: 20px 20px 50px 20px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    background-color:teal;
+    border: 3px solid brown;
+
+}
+
+#content{
+    box-sizing: content-box;
+    width: 500px;
+    height: 400px;
+    background-color:rgb(0, 19, 128);
+    margin: 50px;
+    border: 2px solid firebrick;
+
+}

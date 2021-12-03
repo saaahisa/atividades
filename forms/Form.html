@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário</title>
+        </head>
+        <body>
+            <header>
+                <h1>Cadastre Aqui!</h1>
+            </header>
+            <article>
+                <!--Iniciando Formularios: Primeiros passos-->
+                <form action="#" method="GET"> <!--URL ou caminho/nome do arquivo de script em Javascript-->
+                    <fieldset>
+                        <label for="bnome">Nome:</label><br>
+                        <input type="text" size="50" name="nome" id="bnome" required>
+                        <br>
+                        <br>
+                        <label for="sobrenome">sobrenome:</label><br>
+                        <input type="text" size="50" name="sobrenome" id="sobrenome" required>
+                        <br>
+                        <br>
+                  
+                        <label for="emmail">Email</label><br>
+                        <input type="email" size="50" nome="email" id="email" id="email" required>
+                        <br>
+                        <br>
+                        <label for="phone">Telefone</label><br>
+                        <input type="tel" size="50" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx" required>  
+                        <br>
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Enviar">
+
+                        <!--Bloco de Seleção Radio-->
+                        <h3>Escolha seu estado</h3>
+                            <input type="radio" name="tipo" value="c" id="city">
+                            <label for="city">São Paulo</label>
+                            <br>
+                            <input type="radio" name="tipo" value="c" id="san">
+                            <label for="san">Rio de Janeiro</label>
+                            <br>
+                            <input type="radio" name="tipo" value="c" id="fer">
+                            <label for="fer">Bahia</label>
+                            <br>
+                            <br>
+
+                        <!--Bloco de Seleção Checkbox-->
+                        <h3>Música</h3>
+                        <input type="checkbox" name="tipo" value="c" id="kpop">
+                        <label for="kpop">K-POP</label>
+                        <br>
+                        <input type="checkbox" name="tipo" value="c" id="hh">
+                        <label for="hh">Hip-Hop</label>
+                        <br>
+                        <input type="checkbox" name="tipo" value="c" id="eletr">
+                        <label for="eletr">Eletronico</label>
+                        <br>
+                        <br>
+
+                        <!--SELECT LISTA SUSPENSA-->
+                        <h3>Comida</h3>
+                        <select name="comida" id="comida">
+                            <option value="strogonoff">strogonoff</option>
+                            <option value="lasanha">lasanha</option>
+                            <option value="churrasco">churrasco</option>
+                            <option value="brigadeiro">brigadeiro</option>
+                        </select>
+                        <br>
+                        <br>
+
+                      
+  
+
+                    </fieldset>    
+                    <br>
+                    <fieldset>  
+                          <!--DATALIST LISTA SUSPENSA-->
+                        <legend>Música</legend>
+                        
+                        <label for="estilo"> Qual o seu estilo musical ?</label>
+                        
+                        <input id="estilo" name="estilo" type="text" list="listaestilos"/>
+                        
+                        <datalist id="listaestilos"><br/>Escolha entre estes:
+                        
+                            <option value="kpop">kpop</option>
+                            
+                            <option value="pop">pop</option>
+                            
+                            <option value="rock">rock</option>
+                            
+                            <option value="mpb">mpb</option>
+                            
+                            
+                            
+                        </datalist>
+                        <br>
+                        <br>
+                        <br>
+
+                        <legend>Browsers</legend>
+                        <input list="browsers" />
+                        <datalist id="browsers">
+                            <option value="Chrome">
+                            <option value="Firefox">
+                            <option value="Internet Explorer">
+                            <option value="Opera">
+                            <option value="Safari">
+                            <br>
+                        </datalist>
+                    </fieldset>
+                    
+                    <br>
+                    <fieldset>
+                        <br>
+                      <legend>Deixe sua opnião</legend>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Deixei aqui seu comentário"></textarea>
+                        <br>
+                    </fieldset>
+                </form>
+            </article>
+           
+            <footer >
+                <small>Copyright <sub>&copy</sub> - Todos os direitos reservados</small>
+            </footer>
+            
+        </body>
+    </html>

@@ -1,0 +1,19 @@
+/*Cor de fundo em RGB --- */
+
+body{
+    background: IndianRed;(88, 22, 11);
+}
+/*Cor de fundo por Nome --- */
+div{
+    background: Plum;
+}
+/*Cor do texto por hexadecimal --- */
+.text1{
+    color:	Sienna;
+}
+
+/*Cor do texto por hexa abreviado --- */
+.text2{
+    color: #006400;
+}
+/*Cor do texto por HSL --- */
